@@ -10,7 +10,6 @@
  "executable": "python",
  "args": ["move-relative-master/move_relative.py"],
  "config": [
-  {"name": "x_pos", "label": "X Position", "value": 500 },
   {"name": "rel_x", "label": "Relative X distance(mm)", "value": 0},
   {"name": "rel_y", "label": "Relative Y distance(mm)", "value": 0},
   {"name": "rel_z", "label": "Relative Z distance(mm)", "value": 0}
