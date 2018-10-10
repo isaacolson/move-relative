@@ -5,11 +5,7 @@ from farmware_tools import device
 
 device.log('starting!', 'success', ['toast'])
 
-pos_x = device.get_current_position('x')
-pos_y = device.get_current_position('y')
-pos_z = z_height
-
-device.move_relative(x_dist, y_dist, z_dist, 100)
+device.move_relative(10, 10, -10, 100)
 
 device.log('ending!', 'success', ['toast'])
 
