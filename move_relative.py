@@ -3,9 +3,13 @@
 
 from farmware_tools import device
 
+x_dist = get_env('rel_x')
+y_dist = get_env('rel_y')
+z_dist = get_env('rel_z')
+
 device.log('starting!', 'success', ['toast'])
 
-device.move_relative(10, 10, -10, 100)
+device.move_relative(x_dist, 10, -10, 50)
 
 device.log('ending!', 'success', ['toast'])
 
