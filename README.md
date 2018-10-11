@@ -1,5 +1,5 @@
 # Move Relative Farmware
-Moves FarmBot arm to a position relative to current location.
+Moves FarmBot arm to a position relative to initial position.
 
 ## Install
 [Farmware page](https://my.farmbot.io/app/farmware) install URL:
