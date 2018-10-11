@@ -2,6 +2,7 @@
 """Move Relative Farmware"""
 
 from farmware_tools import device
+from farmware_tools import get_config_value
 
 device.log('starting! ' + str(x_dist), 'success', ['toast'])
 
