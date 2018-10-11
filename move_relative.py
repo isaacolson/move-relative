@@ -3,7 +3,7 @@
 
 from farmware_tools import device
 
-device.log('starting!', 'success', ['toast'])
+device.log('starting! ' + str(x_dist), 'success', ['toast'])
 
 device.move_relative(x_dist, 10, -10, 50)
 
